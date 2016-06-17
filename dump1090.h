@@ -195,8 +195,8 @@ typedef struct rtlsdr_dev rtlsdr_dev_t;
 #define HTMLPATH   "./public_html"      // default path for gmap.html etc
 #endif
 
-#define HISTORY_SIZE 120
-#define HISTORY_INTERVAL 30000
+#define HISTORY_SIZE 360
+#define HISTORY_INTERVAL 10000
 
 #define MODES_NOTUSED(V) ((void) V)
 
